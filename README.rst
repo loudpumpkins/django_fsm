@@ -36,8 +36,8 @@ finite state machines to manage, it can be renamed.
 :choices:     list/tuple of the possible states of the object
 :readonly:    bool; prevent direct manipulation of the state (default True)
 
-@transition
-___________
+Transition
+__________
 
 @transition decorated methods are the methods called when a transition is required.
 The decorated method should return None (or NoReturn) or a string representation
@@ -45,7 +45,7 @@ of the next state in the event that a state has multiple possible paths.
 
 .. code-block:: python
 
-    @transition(src='*', dest=None, field='state', on_error=None, conditions=[], custom={}):
+    @transition(src='*', dest=None, field='state', on_error=None, conditions=[], custom={})
     def traverse(self):
         pass
 
