@@ -8,7 +8,7 @@ destination and conditions to the transition.
 Allows for easy state management of DJango objects and prevents state change
 if all conditions are not met.
 
-Aims to merge and simplify `django-fsm <https://github.com/viewflow/django-fsm>`_ and `django-fsm-admin <https://github.com/gadventures/django-fsm-admin>`_
+Aims to merge and simplify `django-fsm <https://github.com/viewflow/django-fsm>`_ and `django-fsm-admin <https://github.com/gadventures/django-fsm-admin>`_.
 
 Usage
 ------------
